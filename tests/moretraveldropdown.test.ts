@@ -19,7 +19,7 @@ const driver: WebDriver = new Builder()
       await driver.quit();
     });
 
-    test("More travel Page", async()=>{
+    test("Things To Do", async()=>{
         await driver.wait(until.elementLocated(page.moreTravel));
         await (await driver.findElement(page.moreTravel)).click();
         await driver.sleep(2000);
