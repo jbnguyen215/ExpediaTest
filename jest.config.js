@@ -4,5 +4,5 @@ module.exports = {
     //testPathIgnorePatterns: ["/node_modules/", "tests/pageObjects/"],
     testPathIgnorePatterns: ["__tests__/pageObjects/"],
     //setupFilesAfterEnv: ["./jest.setup.js"],
-    testTimeout: 30000,
+    testTimeout: 60000,
   };
