@@ -119,7 +119,6 @@ export class Expedia{
       }
     
 
-
     /**Flight Search Testing - Start */
     async flightButtonClick(){
         await this.driver.wait(until.elementLocated(this.flightButton));
@@ -261,7 +260,7 @@ export class Expedia{
     }
     /**Stay Booking  - End*/
 
-    
+
     /**Change the website language - start*/
 
     async languageClick(){
